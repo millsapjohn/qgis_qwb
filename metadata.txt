@@ -1,24 +1,23 @@
 [general]
-name=plugin
+name=QWB
 qgisMinimumVersion=3.00
 email=jmillsapengineer@gmail.com
 author=John Millsap
-description=description
-about=long description
-version=0.1
-repository=repo
+description=A simple web browser in QGIS
+about=browse the web from within the QGIS main window
+version=1.0
+repository=https://github.com/millsapjohn/qgis_qwb
 
-category=RasterVectorDatabaseMeshWeb
 changelog=changelog
-experimental=True
+experimental=False
 deprecated=False
-tags=tag,tag1
-homepage=homepage
-tracker=tracker
-qgisMaximumVersion=3.99
+tags=web
+homepage=https://github.com/millsapjohn/qgis_qwb
+tracker=https://github.com/millsapjohn/qgis_qwb/issues
+qgisMaximumVersion=4.99
 icon=icon
-plugin_dependencies=plugin1,plugin2
 server=False
 hasProcessingProvider=False
+supportsQt6=True
 
 
